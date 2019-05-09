@@ -1,0 +1,28 @@
+#columnsep{
+	columns:2;
+	column-gap:  200px;
+	/*column-rule: blue solid 1.5px;*/
+}
+
+.columnleft{
+	margin-left: 250px;
+}
+
+#breaker{
+	-webkit-column-break-after:always;
+}
+
+#columnsep div{
+	width:200px;
+}
+
+#columnsep div p{
+	text-align: center;
+	width:250px;
+	margin-top:-3px;
+	margin-bottom:25px;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+

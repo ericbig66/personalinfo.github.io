@@ -1,0 +1,31 @@
+.interestphoto,.photo{
+	width:250px;
+	border-radius: 5px;
+}
+
+.L{
+	float:left;
+	margin-right: 20px;
+}
+
+.R{
+	float:right;
+	margin-left: 20px;
+}
+
+#interest div{
+	margin-bottom: 35px;
+	height: 275px;
+}
+
+#interest .subtitle{
+	margin-bottom: 20px;
+}
+
+#interest div:nth-child(1){
+	height: auto;
+}
+#interest_right{
+	width:650px;
+	margin-left:560px;
+}

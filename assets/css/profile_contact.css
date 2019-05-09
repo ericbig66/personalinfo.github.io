@@ -1,0 +1,104 @@
+.gridsep{
+	display:grid;
+	grid-template-columns: 3fr 2fr;
+    grid-column-gap: 8.5%;
+    margin-top:400px;
+}
+
+#profilepicture{
+	width:200px;
+	height: 200px;
+	/*border: green solid 3px;*/
+	margin: 35px 50px -2px 75px;
+	background-image: url(../img/Eric.jpg);
+	background-size: cover;
+	border-radius: 100%;
+}
+
+#profile{
+	columns:2;
+
+}
+
+#profile div{
+	-webkit-column-break-after:always;
+
+}
+
+#sidebar{
+	width:300px;
+}
+
+#sidebar ul{
+	padding-left: 0;
+}
+
+#sidebar ul li{
+	display: inline-flex;
+	margin-bottom: 10px;
+}
+
+#sidebar ul li div{
+	margin-right: 10px;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.socialicon{
+	border-radius: 25%;
+	background-size:cover;
+	background-position: center;
+	transition: ease 1s;
+	width: 	40px;
+	height: 40px;
+}
+
+#icon0{
+	background-image: url(../img/fb.png);
+}
+#m0:hover #icon0{
+	background-image: url(../img/fb_hover.png);
+}
+
+#icon1{
+	background-image: url(../img/insta.png);
+}
+#m1:hover #icon1{
+	background-image: url(../img/insta_hover.png);
+}
+
+#icon2{
+	background-image: url(../img/line.png);
+}
+#m2:hover #icon2{
+	background-image: url(../img/line_hover.png);
+}
+
+#icon3{
+	background-image: url(../img/tele.png);
+}
+#m3:hover #icon3{
+	background-image: url(../img/tele_hover.png);
+}
+
+#icon4{
+	background-image: url(../img/mail.png);
+}
+#m4:hover #icon4{
+	background-image: url(../img/mail_hover.png);
+}
+
+#icon5{
+	background-image: url(../img/phone.png);
+}
+#m5:hover #icon5{
+	background-image: url(../img/phone_hover.png);
+}
+
+#icon6{
+	background-image: url(../img/location.png);
+}
+#m6:hover #icon6{
+	background-image: url(../img/location_hover.png);
+}
+

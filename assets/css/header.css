@@ -1,0 +1,59 @@
+header{
+	width:1409.6px;
+	height: 100px;
+	margin:0 0 0 -99px;
+}
+
+#logo_nva{
+	margin:0 0 0 0;
+	justify-content: space-around;
+	vertical-align: middle;
+	z-index: 10;
+}
+
+#logo{
+	
+	flex:none;
+	align-items: flex-start;
+	margin-left: 55px;
+
+}
+
+#logo img{
+	width:140px;
+}
+
+#nav{
+	align-items: center;
+	vertical-align: middle;
+	width:70%;
+}
+
+#nav ul{
+	float:right;
+	width:70%;
+	margin:0;
+}
+
+#nav ul li{
+	
+	list-style: none;
+	float:left;
+	width:15%;
+	text-align: center;
+	padding:21px 0;
+	background-color: #00eaff45;
+	transition: ease 0.3s;
+}
+
+#nav ul li:hover{
+	background-color:#00e1f6;
+}
+
+#banner{
+	z-index: 1;
+	/*position: absolute;*/
+	margin-top:-56px;
+	margin-left:-1px;
+	width:1409.6px;
+}

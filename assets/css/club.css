@@ -1,0 +1,61 @@
+
+#club_frame{
+	width:1210px;
+	overflow: hidden;	
+}
+
+#club_content{
+	float:left;
+	overflow: hidden;
+	width:calc(1210px*3);	
+	transition: ease 1s;
+	margin-left: 0px;
+}
+.artical{
+	float:left;
+	height:324px;
+	width:1110px;
+	padding:0 50px;
+	text-align: justify;
+
+	
+	/*
+	margin-left: 500px;
+	
+	
+	
+	justify-content: center;
+	*/
+}
+
+.artical img{
+	width:39%;
+	float:left;
+	margin:auto 25px auto -15px;
+	border-radius: 5px;
+	
+}
+
+.btn{
+	width: 35px;
+    height: 324.68px;
+    border: none;
+    background-color: black;
+    opacity: 0.05;
+    margin-top: -324.68px;
+    position: absolute;
+    color: white;
+}
+
+.btn:hover{
+ opacity:1;
+}
+
+#pre{
+	margin-left:0px;
+}
+
+#nex{
+	margin-left:1175px;
+}
+

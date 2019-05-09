@@ -1,0 +1,81 @@
+
+#experience{
+	margin-top: -175px;
+}
+
+/*滑桿*/
+.slider{
+	width:100%;
+	-webkit-appearance:none;
+	height: 5px;
+	background: blue;
+	opacity:0.5;
+	border-radius: 25px;
+	transition: ease .2s;
+}
+
+.slider:hover{
+	opacity:1;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  transition: linear 2s;
+}
+
+#edu{
+	position: absolute;
+    display: inline-flex;
+    width: 729px;
+    justify-content: space-between;
+    margin: 12px 0 0 -21px;
+}
+
+.tooltip{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	color:white;
+	font-size: 15px;
+	padding:5px;
+	opacity:0;
+	transition: ease 1s;
+}
+
+.tooltip::after{
+	display: inline-flex;
+    position: absolute;
+    content: " ";
+    bottom: 30px;
+    margin-left: -36px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0,0,0,0.8) transparent;
+}
+
+/*to limit the content that can be seen*/
+#exp_frame{
+	height: 155px;
+	width:680px;
+	outline: skyblue 1px solid;
+	overflow: hidden;
+}
+
+/*the actual content (separated by div)*/
+#exp_content{
+	width:calc(680px*4);
+	float:left;
+	transition: ease 0.7s;
+}
+
+/*rules for each slide*/
+#exp_content div{
+	width:680px;
+	float:left;
+	overflow: hidden;
+
+}

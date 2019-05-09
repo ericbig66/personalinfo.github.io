@@ -1,0 +1,68 @@
+html{
+	scroll-behavior: smooth;
+	height: 100%;
+
+}
+
+body{
+	font-family: "微軟正黑體",Microsoft JhengHei;
+	font-size: 20px;
+	color:black;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+*{
+	outline: none;
+}
+#pgcontent{
+	margin: 10px 50px;
+	padding:0px 100px; 
+	background-color: #dbfcff;
+	/*z-index:-10;
+	width:calc(100vw - 100px);*/
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+p{
+	text-align: justify;
+}
+
+/*卷軸*/
+::-webkit-scrollbar{
+	width:10px;
+}
+
+/*卷軸拉桿軌道*/
+::-webkit-scrollabr-track{
+	box-shadow: inset 0 0 5px gray;
+	border-radius: 10px;
+}
+
+/*卷軸拉桿*/
+::-webkit-scrollbar-thumb{
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+/*滑鼠碰到拉桿時*/
+::-webkit-scrollbar-thumb:hover{
+	background:purple;
+}
+
+section{
+	margin-bottom: 40px;
+}
+
+ul{
+	list-style: none;
+}
+
+.zero{
+	height: 0;
+}
+
