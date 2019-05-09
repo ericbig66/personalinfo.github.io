@@ -2,17 +2,20 @@
 	display:grid;
 	grid-template-columns: 3fr 2fr;
     grid-column-gap: 8.5%;
-    margin-top:400px;
 }
 
 #profilepicture{
 	width:200px;
 	height: 200px;
 	/*border: green solid 3px;*/
-	margin: 35px 50px -2px 75px;
+	margin: 10% 10% 0.1% 30%;
 	background-image: url(../img/Eric.jpg);
 	background-size: cover;
 	border-radius: 100%;
+}
+
+#selfintro{
+	width:90%;
 }
 
 #profile{
@@ -26,7 +29,8 @@
 }
 
 #sidebar{
-	width:300px;
+	width:100%;
+	max-width:328px;
 }
 
 #sidebar ul{

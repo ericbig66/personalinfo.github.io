@@ -1,6 +1,8 @@
 #columnsep{
 	columns:2;
-	column-gap:  200px;
+	column-gap:  20%;
+	width:100%;
+	min-width: 850px;
 	/*column-rule: blue solid 1.5px;*/
 }
 

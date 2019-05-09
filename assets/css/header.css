@@ -1,7 +1,8 @@
 header{
-	width:1409.6px;
-	height: 100px;
-	margin:0 0 0 -99px;
+	width:117.69%;
+	/*height: 504px;*/
+	margin:0 0 0 -8.8%;
+	/*outline: solid red 1px;*/
 }
 
 #logo_nva{
@@ -54,6 +55,6 @@ header{
 	z-index: 1;
 	/*position: absolute;*/
 	margin-top:-56px;
-	margin-left:-1px;
-	width:1409.6px;
+	margin-left:-0.05%;
+	width:100%;
 }

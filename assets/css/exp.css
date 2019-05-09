@@ -31,7 +31,7 @@
 #edu{
 	position: absolute;
     display: inline-flex;
-    width: 729px;
+    width: 46.3%;
     justify-content: space-between;
     margin: 12px 0 0 -21px;
 }
@@ -51,7 +51,7 @@
     position: absolute;
     content: " ";
     bottom: 30px;
-    margin-left: -36px;
+    margin-left: -4.8%;
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent rgba(0,0,0,0.8) transparent;
@@ -60,21 +60,21 @@
 /*to limit the content that can be seen*/
 #exp_frame{
 	height: 155px;
-	width:680px;
+	width:100%;
 	outline: skyblue 1px solid;
 	overflow: hidden;
 }
 
 /*the actual content (separated by div)*/
 #exp_content{
-	width:calc(680px*4);
+	width:400%;
 	float:left;
 	transition: ease 0.7s;
 }
 
 /*rules for each slide*/
 #exp_content div{
-	width:680px;
+	width:25%;
 	float:left;
 	overflow: hidden;
 
