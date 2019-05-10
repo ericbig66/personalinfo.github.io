@@ -1,32 +1,29 @@
 
 #club_frame{
 	width:100%;
-	max-width: 1210px;
+	/*max-width: 1210px;*/
 	overflow: hidden;	
 }
 
 #club_content{
 	float:left;
 	overflow: hidden;
-	width:calc(1210px*3);	
+	width:calc(100%*3);	
 	transition: ease 1s;
 	margin-left: 0px;
 }
 .artical{
 	float:left;
 	height:324px;
-    width: 30.5786%;
+    width: calc(100%/3);
     padding: 0 1.3775%;
+    box-sizing: border-box;
 	text-align: justify;
+	vertical-align: middle;
+}
 
-	
-	/*
-	margin-left: 500px;
-	
-	
-	
-	justify-content: center;
-	*/
+.artical h3{
+	margin:0 auto 0 auto;
 }
 
 .artical img{
@@ -34,10 +31,14 @@
 	float:left;
 	margin:auto 25px auto -15px;
 	border-radius: 5px;
-	
+	vertical-align: middle;
 }
 
+.artical p{
+	width: 58%;
+    padding-left: 41%;
 
+}
 
 .btn{
 	width: 35px;
@@ -55,7 +56,7 @@
 }
 
 #pre{
-	margin-left:0px;
+	/*margin-left:-1.86%;*/
 }
 
 #nex{

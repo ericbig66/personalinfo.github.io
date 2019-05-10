@@ -4,5 +4,5 @@ function page(i){
 	p+=i;
 	if(p>2){p=0;}
 	if(p<0){p=2;}
-	document.getElementById("club_content").style.marginLeft=p*(-1210)+"px"
+	document.getElementById("club_content").style.marginLeft=p*(-100)+"%"
 }
