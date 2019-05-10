@@ -13,6 +13,10 @@
 	margin-left: 20px;
 }
 
+#rt{
+	float:right;
+}
+
 #interest div{
 	margin-bottom: 35px;
 	height: 275px;
@@ -26,6 +30,6 @@
 	height: auto;
 }
 #interest_right{
-	width:54%;
-	margin-left:46%;
+	width:100%;
+	/*margin-left:46%;*/
 }

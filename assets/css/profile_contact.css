@@ -8,10 +8,11 @@
 	width:200px;
 	height: 200px;
 	/*border: green solid 3px;*/
-	margin: 10% 10% 0.1% 30%;
+	margin: 5% 10% 0.1% 17%;
 	background-image: url(../img/Eric.jpg);
 	background-size: cover;
 	border-radius: 100%;
+	flex: none;
 }
 
 #selfintro{
@@ -20,7 +21,7 @@
 
 #profile{
 	columns:2;
-
+	display: flex;
 }
 
 #profile div{
@@ -106,3 +107,8 @@
 	background-image: url(../img/location_hover.png);
 }
 
+@media only screen and (max-width: 1270px){
+	#profilepicture{
+		margin: 10% 4% 0.1% -5%;
+	}
+}
